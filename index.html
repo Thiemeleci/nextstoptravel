@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Next Stop Travel - Agência De Viagem</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">Next Stop Travel</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#tour">Tour</a></li>
+        <li><a href="#package">Pacotes</a></li>
+        <li><a href="#contact">Contato</a></li>
+        <li><a href="#">Agendar Viagem</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn">AGENDAR VIAGEM</button>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="header__container">
+        <div class="header__content">
+          <p>ELEVE SUA JORNADA DE VIAGEM</p>
+          <h1>Experimente a magia do voo!</h1>
+          <div class="header__btns">
+            <button class="btn">Reserve sua viagem agora!</button>
+            <a href="#">
+              <span><i class="ri-play-circle-fill"></i></span>
+            </a>
+          </div>
+        </div>
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container destination__container" id="about">
+      <h2 class="section__header">Destinos Populares</h2>
+      <p class="section__description">
+        Descubra os destinos mais queridos do mundo
+      </p>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="assets/nova-iorque.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Tradição E Futurismo</h4>
+              <p>New York City, USA</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.7
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/paris.webp" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>A Cidade Das Luzes</h4>
+              <p>Paris, France</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.5
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/roma.webp" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Coliseum</h4>
+              <p>Roma, Itália</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.8
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container journey__container" id="tour">
+      <h2 class="section__header">Viagem Ao Céu Simplificada!</h2>
+      <p class="section__description">
+        Planejamento Facilitado Para A Sua Próxima Viagem
+      </p>
+      <div class="journey__grid">
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-bookmark-3-line"></i></span>
+            <h4>Processo De Reservas Simples</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-bookmark-3-line"></i></span>
+            <h4>Fácil e rápido, a um clique de distância</h4>
+            <p>
+              De voos e acomodações a atividades e traslados, tudo o que você precisa
+               está disponível na ponta de seus dedos, tornando o planejamento da viagem
+                planejamento de viagens sem esforço.
+            </p>
+          </div>
+        </div>
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-landscape-fill"></i></span>
+            <h4>Itineários Sob Medida</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-landscape-fill"></i></span>
+            <h4>Planos personalizados só para você</h4>
+            <p>
+              Desfrute de planos de viagem personalizados projetados para atender às suas
+               preferências e interesses. Se você busca aventura ou imersão cultural,  nossos 
+               itinerários personalizados garantem que sua viagem seja exclusivamente sua.
+            </p>
+          </div>
+        </div>
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-map-2-line"></i></span>
+            <h4>Insights De Especialistas Locais</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-map-2-line"></i></span>
+            <h4>Dicas e recomendações privilegiadas</h4>
+            <p>
+              Fornecemos recomendações selecionadas para refeições, passeios e joias
+               ocultas, para que você possa conhecer cada destino como um morador local.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container showcase__container" id="package">
+      <div class="showcase__image">
+        <img src="assets/showcase.jpg" alt="showcase" />
+      </div>
+      <div class="showcase__content">
+        <h4>LIBERTE SEU DESEJO DE VIAJAR COM A NEXT STOP TRAVEL</h4>
+        <p>
+          Embarque em uma jornada sem igual com a Next Stop Travel, onde seus sonhos de viagem ganham vida. Nossa missão é inspirar e facilitar suas
+          aventuras, quer você busque a energia vibrante de cidades agitadas
+          agitadas, a beleza serena de praias imaculadas ou a história cativante de
+          história de marcos antigos. Na Next Stop Travel, oferecemos destinos com curadoria especializada
+          destinos e itinerários personalizados, garantindo que cada viagem seja
+          adaptada às suas preferências exclusivas. Descubra joias ocultas, mergulhe em
+          mergulhe em diversas culturas e crie memórias inesquecíveis que durarão a vida toda.
+          durarão a vida toda.
+        </p>
+        <p>
+          Com a Next Stop Travel como sua melhor companheira de viagem, explorar as maravilhas
+          do mundo nunca foi tão fácil. Nossas dicas e informações locais
+          locais lhe dão as ferramentas para navegar por novos lugares com confiança e
+          entusiasmo. Desde o momento em que você começa a planejar até o dia do seu retorno
+          de volta para casa, nós nos dedicamos a tornar sua experiência de viagem perfeita e
+          enriquecedora.
+        </p>
+        <div class="showcase__btn">
+          <button class="btn">
+            Reserve Sua Viagem Agora Mesmo
+            <span><i class="ri-arrow-right-line"></i></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <h4>10+</h4>
+        <p>Anos De Experiência</p>
+      </div>
+      <div class="banner__card">
+        <h4>12 Mil</h4>
+        <p>Clientes Satisfeitos</p>
+      </div>
+      <div class="banner__card">
+        <h4>9.8</h4>
+        <p>Nota Do Público</p>
+      </div>
+    </section>
+
+    <section class="section__container discover__container">
+      <h2 class="section__header">Descubra O Mundo Visto De Cima</h2>
+      <p class="section__description">
+        Experimente Vistas De Tirar O Fôlego
+      </p>
+      <div class="discover__grid">
+        <div class="discover__card">
+          <span><i class="ri-camera-lens-line"></i></span>
+          <h4>Paisagens Urbanas Aéreas</h4>
+          <p>
+            Veja as maravilhas arquitetônicas e as ruas movimentadas de uma
+            vista aérea, oferecendo uma perspectiva única.
+          </p>
+        </div>
+        <div class="discover__card">
+          <span><i class="ri-ship-line"></i></span>
+          <h4>Maravilhas Do Litoral</h4>
+          <p>
+            Sobrevoe litorais imaculados e águas azul-turquesa, revelando enseadas
+            enseadas escondidas e vibrantes recifes de coral.
+          </p>
+        </div>
+        <div class="discover__card">
+          <span><i class="ri-landscape-line"></i></span>
+          <h4>Marcos Históricos</h4>
+          <p>
+            Observe a grandiosidade de castelos antigos e outros locais importantes
+            de uma forma que os passeios terrestres não podem oferecer.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container">
+      <h2 class="section__header">Adorados Por Milhares De Viajantes</h2>
+      <p class="section__description">
+        Descubra as histórias de desejo de viajar e memórias queridas através dos
+        olhos de nossos valiosos clientes.
+      </p>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  A Next Stop Travel transformou completamente minha experiência de viagem. Desde
+                  encontrar joias escondidas em cidades agitadas a descobrir
+                  retiros serenos fora do caminho comum, cada detalhe foi cuidadosamente
+                  cuidadosamente organizados.
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="assets/client-1.jpg" alt="client" />
+                <div>
+                  <h4>John Adams</h4>
+                  <h5>Blogueiro de viagens</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  Minha recente aventura com a Next Stop Travel foi nada menos que espetacular.
+                  . Os itinerários personalizados e as recomendações
+                   personalizadas que eles forneceram me levaram a locais extraordinários que eu
+                  nunca teria encontrado por conta própria. Já estou planejando minha próxima
+                  aventura com eles!
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="assets/client-2.jpg" alt="client" />
+                <div>
+                  <h4>Emily Thompson</h4>
+                  <h5>Entusiasta de aventuras</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  A Next Stop Travel ofereceu uma experiência transformadora para minha pesquisa
+                  sobre marcos históricos. As perspectivas aéreas exclusivas e
+                  proporcionaram um novo nível de apreciação e percepção dos locais
+                 que estudei. Recomendo seus serviços a outros historiadores e
+                  entusiastas da cultura.
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="assets/client-3.jpg" alt="client" />
+                <div>
+                  <h4>Sarah Lee</h4>
+                  <h5>Historiador cultural</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  Encontrar um equilíbrio entre trabalho e viagem pode ser um desafio,
+                  mas a Next Stop Travel fez isso sem esforço. Seu planejamento eficiente e
+                  excelentes recomendações me ajudaram a maximizar meu tempo livre e
+                  aproveitar cada momento de minha viagem. Estou ansioso para trabalhar com
+                  com eles novamente em viagens futuras.
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="assets/client-4.jpg" alt="client" />
+                <div>
+                  <h4>David Patel</h4>
+                  <h5>Executivo de negócios</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Next Stop Travel</a>
+          </div>
+          <p>
+            Explore o mundo com facilidade e emoção por meio de nossa abrangente
+            plataforma de viagens. Sua viagem começa aqui, onde o planejamento perfeito
+            encontra experiências inesquecíveis.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-youtube-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Links Rápidos</h4>
+          <ul class="footer__links">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Voos</a></li>
+            <li><a href="#">Hotéis</a></li>
+            <li><a href="#">Cruzeiros</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contato</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +91 9876543210
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-record-mail-line"></i></span> contato@nextstoptravel.com
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> Chicago, USA
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Crie sua conta</h4>
+          <form action="/">
+            <input type="text" placeholder="Informe seu e-mail" />
+            <button class="btn">Inscreva-se</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bar">
+        © 2024 Next Stop Travel. Todos os direitos reservados.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
